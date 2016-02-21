@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" parallel="tests" thread-count="2">
+	<test verbose="1" name="All">
+		<classes>
+			<class name="PB.AutoTests.TestRunner"/>
+		</classes>
+	</test>
+	<test verbose="1" name="All2">
+		<classes>
+			<class name="PB.AutoTests.TestRunner"/>
+		</classes>
+	</test>
+</suite>
